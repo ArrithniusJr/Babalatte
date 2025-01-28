@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .orders-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .order-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .order-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .order-card p {
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .order-card .items-list {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  .order-card .items-list li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+  }
+
+  .order-card .status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .order-card .status.pending {
+    background: #ffeb3b;
+    color: #000;
+  }
+
+  .order-card .status.completed {
+    background: #4caf50;
+    color: #fff;
+  }
+
+  .order-card .status.cancelled {
+    background: #f44336;
+    color: #fff;
+  }
+
+  .order-card .actions {
+    margin-top: 15px;
+  }
+
+  .order-card .actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 500;
+  }
+
+  .order-card .actions button.complete {
+    background: #4caf50;
+    color: white;
+  }
+
+  .order-card .actions button.cancel {
+    background: #f44336;
+    color: white;
+  }
